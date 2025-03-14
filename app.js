@@ -11,5 +11,5 @@ function agregarAmigo(){
 
 function sortearAmigo() {
     const random = Match.Floor(Math.random() * listaAmigos.length);
-    console.log(random)
+    ulResultado.innerHTML = `<li> El amigo secreto es: ${amigoSecreto}</li>`
 }
